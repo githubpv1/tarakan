@@ -1,0 +1,30 @@
+
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  width="140px" height="142px"
+	 viewBox="0 0 140 142" style="enable-background:new 0 0 140 142;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#888888;}
+	.st1{fill:#6EAACE;}
+</style>
+<g>
+	<g transform="translate(-343 -247)">
+		<g transform="translate(343 247)">
+			<path class="st0" d="M140,100V82h-8V68.1l6,2.3v-4.3L84,45.8V16H20V6h2V0H8v6h2v10H4v118H0v8h140v-8h-4v-34H140z M132,84h6v14h-6
+				V84z M84,84h6v14h-6V84z M92,84h6v14h-6V84z M100,84h6v14h-6V84z M108,84h6v14h-6V84z M116,84h6v14h-6V84z M124,84h6v14h-6V84z
+				 M130,67.3V82H84V50L130,67.3z M10,2h10v2H10V2z M12,6h6v10h-6V6z M6,18h76v116h-4V88H58v46H6V18z M60,90h16v44H60V90z M2,136
+				h136v4H2V136z M90,106h38v4H90V106z M90,112h38v4H90V112z M90,118h38v4H90V118z M90,124h38v4H90V124z M90,130h38v4H90V130z
+				 M134,134h-4v-30H88v30h-4v-34h50V134z"/>
+			<path class="st0" d="M10,84h20V22H10V84z M12,24h16v58H12V24z"/>
+			<g>
+				<rect x="12" y="24" class="st1" width="16" height="58"/>
+				<rect x="36" y="24" class="st1" width="16" height="58"/>
+				<rect x="60" y="24" class="st1" width="16" height="58"/>
+			</g>
+			<g>
+				<path class="st0" d="M34,84h20V22H34V84z M36,24h16v58H36V24z"/>
+				<path class="st0" d="M62,117h12V92H62V117z M64,94h8v21h-8V94z"/>
+				<path class="st0" d="M58,84h20V22H58V84z M60,24h16v58H60V24z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

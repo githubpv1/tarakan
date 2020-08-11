@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ru">             <!--  -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+	<title>мой сайт BS4</title>
+	  <link rel="stylesheet" href="css/bootstrap.min.css" > 
+	<!--<link rel="stylesheet" href="css/bootstrap-grid.css" >
+	<link rel="stylesheet" href="css/bootstrap-reboot.css" >-->
+	<link rel="stylesheet" href="css/lightslider.css" />
+	<link rel="stylesheet" href="calendar/css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- arcticModal theme -->
+    <link rel="stylesheet" href="css/simple.css">
+	<link rel="stylesheet" href="css/style.css"  >  <!-- свой вторым -->
+	
+</head>
+<body>
+
+
+
+	<!--[if lt IE 9]>
+        <p class="browsehappy container">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/">обновите версию вашего браузера</a> для более
+            продуктивной и комфортной работы.</p>
+        <![endif]-->
+		
+	
+		
+		<div id="wrap">
+  
+  <!-- header -->
+  <header class="header">
+    <a href="#"> <img id="logo" src="img/logo.png" title="Разные темы" alt="  " ></a>
+	<nav class="nav-header">
+	    <a class="nav-header__link" href="new.html">Сдать жилье</a>
+	    <a class="nav-header__link" href="img/vek4.png">Мой кабинет</a>
+	    <a class="nav-header__link" href="#"><img src="img/zirka.png" alt=""></a>
+	    <a class="nav-header__link" href="#">0</a>
+	    <a class="nav-header__link" href="#">UAH</a>
+	    <a class="nav-header__link" href="#" title="Разные темы">RUS</a>
+    </nav> 
+  </header>
+ 
+
+  
+  <!-- Контент -->
+  
+  <div class="container"> 
+    <section class="search">
+    
+	  <div class="zagla"> Найдите место для проживания </div>
+	  <div class="komic"> 6500 обьявлений - комиссия 0% </div>
+	
+	<!-- search-form --> 
+	  <div class="search-form" >
+        <form  method="get" action="#" >
+		  <div class="search-form__border">
+		    <input class="input" type="search" name="s" placeholder="Город или отель" />
+            <div class="search-button">Уточнить</div>
+		    <input class="submit" type="submit" name="s" value="Найти"/>
+          </div>
+	  
+	      <div class="droplink" id="dropdown">
+            <div class="droplink-title" >Прибытие - Выезд</div>
+		    <ul>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>1комнат.квартиры <span class="namber">(121)</span></label></li>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>2комнат.квартиры<span class="namber">(55)</span></label></li>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>3-4комнат.квартиры<span class="namber">(41)</span></label></li>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>Элинги<span class="namber">(39)</span></label></li>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>отели<span class="namber">(55)</span></label></li>
+		      <li><label><input type="checkbox" class="checkbox" name="a"/>
+		        <span></span>дома<span class="namber">(120)</span></label></li>
+            </ul>
+          </div>
+        <div class="data">Дата заезда: <input type="text" id="from" size="7"/> <br>
+           Дата выезда: <input type="text" id="to" size="7"/></div>
+		  
+		  </form>
+      </div>
+	</section>
+	
+	
+	
+	<!-- reclame -->
+  
+  <section class="reclame row"> 
+	
+	<div class="col-12 col-sm-4 reclame-item">
+        <div class="reclame_bottom">
+		    <div class="reclame__title">Найти и Исследовать</div>		  
+		    <div class="reclame__text">Найдите жильё соответствующее<br>вашему бюджету и стилю</div>	
+	    </div>
+		 
+		  <div class="img-home">
+			<img   class="mg-shadow1" src="img/home1.svg" alt="  " >
+			<img   class="mg-shadow2" src="img/home2.svg" alt="  " >
+			<img   class="mg-shadow3" src="img/home3.svg" alt="  " >
+	      </div>
+		
+	</div> 
+	
+	
+	
+	<div id="contact-book" class="col-12 col-sm-4 reclame-item" value="!">
+         
+		<div class="reclame_bottom"> 
+		    <div class="reclame__title">Задать вапросы и <br> Забронировать</div>	  
+		    <div class="reclame__text">Cвяжитесь с потенциальными хозяевами,<br> подтвердите даты поездки и безопасно<br>забронируйте жильё</div>
+		</div>
+		<div class="img">
+		    <img src="img/telefon.svg" alt="  " >
+			<div class="smc">
+			  <div class="screen">
+			  
+			  </div> 
+			</div>
+		</div>
+	</div> 
+	<div class="col-12 col-sm-4 reclame-item">
+        <div class="reclame_bottom"> 
+		    <div class="reclame__title">Подлинные отзывы</div>
+			<div class="reclame__text">от 52537 гостей</div> 
+		</div>
+		<div class="img">
+		    <img src="img/img-border.svg" alt="  " >
+			<div class="windows">
+			    <div class="div-globe"> 
+				    <div class="div-globe1">
+					  <img  src="img/earth.svg" alt="  " >
+			          <img class="sun" src="img/sun.svg" alt="  " >
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+	
+	
+	    
+    <!-- popular destinations -->
+  
+  <section class="popular"> 
+	<h1 class="popular-title"> ПОПУЛЯРНЫЕ НАПРАВЛЕНИЯ </h1>
+	<div class="row">
+	<div class="col-12 col-sm-4 popular_bottom "> 
+	  <div class="text-shadow" >
+		<img  src="img/teni.png" alt=" " class="teni1" >
+	    <div class="text-top"><h6>Екатеринбург</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	  </div>
+	</div>
+	
+	<div class="col-12 col-sm-4 popular_bottom"> 
+	  <div class="text-shadow" >
+		<img src="img/teni.png" alt=" " class="teni2" >
+	    <div class="text-top"><h6>Ялта</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	  </div>
+	</div>
+	
+	<div class="col-12 col-sm-4 popular_bottom"> 
+	  <div class="text-shadow" >
+		<img src="img/teni.png" alt=" " class="teni3" >
+	    <div class="text-top"><h6>Одесса</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	  </div>
+	</div>
+	
+	
+	
+	<div class="col-12 col-sm-4 popular_bottom"> 
+	  <div class="text-shadow " >
+		<img src="img/teni.png" alt=" " class="teni4" >
+	    <div class="text-top"><h6>Яремче</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	</div></div>
+	
+	<div class="col-12 col-sm-4 popular_bottom"> 
+	  <div class="text-shadow" >
+		<img src="img/teni.png" alt=" " class="teni5" >
+	    <div class="text-top"><h6>Бакуриани</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	  </div>
+	</div>
+	
+	<div class="col-12 col-sm-4 popular_bottom"> 
+	  <div class="text-shadow" >
+		<img src="img/teni.png" alt=" " class="teni6" >
+	    <div class="text-top"><h6>Каварна</h6>1 451 вариант</div> 
+	    <div class="text-bottom">Средняя цена <br>1 451 RUB</div>
+	  </div>
+	</div>
+	</div>
+	
+  </section>
+	
+	
+	
+	<!-- all destinations -->
+
+  <section class="destinations">
+	<h2> ВСЕ НАПРАВЛЕНИЯ </h2>
+	<div class="row">
+	<div class="col-12 col-sm-3 "> 
+	   <h5> <a href="http://www.yandex.ru">Россия</a> </h5><h5><a href="http://www.yandex.ru">Украина</a></h5><h5><a href="http://www.yandex.ru">Крым</a></h5>
+	</div>
+	<div class="col-12 col-sm-3 "> 
+	   <h5> Грузия </h5><h5>Абхазия</h5><h5>Болгария</h5>
+	</div>
+	<div class="col-12 col-sm-3 "> 
+	   <h5> Черногория </h5><h5>Черноморье</h5><h5>Азов</h5>
+	</div>
+	<div class="col-12 col-sm-3 "> 
+	   <h5> Карпаты </h5><h5>Буковель</h5><h5>Шацкие озёра</h5>
+	</div>
+	
+	<div class="col-12 "> <h5>Сисьема прямого бронирования рррррррррррр ррррррррррр ррррррррррррр рррррррр ррррррррррр ррррррррррррр
+	  ррррррррррррр рррррррррр ррррррррррррррр рррррррррррр рррррррррррр рррррррр</h5>
+    </div> 
+	 </div>     
+  </section>
+	
+	
+	
+	<!-- reclame1 -->
+  
+  <section class="reclame1">
+	
+	<div class="row align-items-end">
+	  <div class="col-12 col-sm-4">
+        <img src="img/vek4.png" alt="  " >
+	  </div>
+	  <div class="col-12 col-sm-4 flex-item1">
+        <img src="img/vek5.png" alt="  " >
+	  </div>
+	  <div class="col-12 col-sm-4 flex-item2">
+        <img src="img/vek6.png" alt="  " >
+      </div>
+	
+	  <div class="col-12 col-sm-4 align-self-start flex-item3">
+	        <div class="reclame1-title">Гарантия наилучшей цены</div> 
+		    <div class="reclame1-text">за счёт прямого бронирования </div> 
+	  </div>
+	  <div class="col-12 col-sm-4 align-self-start flex-item4">
+	         <div class="reclame1-title">Бронирование напрямую у<br> владельца</div>  
+		     <div class="reclame1-text">возможность обсудить с владельцем мгновенно <br>  
+		     после отправления запроса или заявки</div>
+	  </div>
+	  <div class="col-12 col-sm-4 align-self-start flex-item5">
+	        <div class="reclame1-title">Подлинные отзывы</div>		  
+		    <div class="reclame1-text"> от 52537 гостей </div>
+	  </div>
+	</div>
+	
+	<div class="row align-items-end">
+	  <div class="col-12 col-sm-4">
+	    <img src="img/vek7.png" alt="  " >
+	  </div>
+	  <div class="col-12 col-sm-4 flex-item1">
+	    <img src="img/vek8.png" alt="  " >
+	  </div>
+	  <div class="col-12 col-sm-4 flex-item2">   
+        <img src="img/vek9.png" alt="  " >
+	  </div>
+	
+	  <div class="col-12 col-sm-4 align-self-start flex-item3">
+		    <div class="reclame1-title">Бесплатная отмена <br>бронирования </div>
+		    <div class="reclame1-text">для большинства вариантов </div> 
+      </div> 
+	  <div class="col-12 col-sm-4 align-self-start flex-item4">
+		   <div class="reclame1-title">Чувствуйте себя как дома</div> 
+		   <div class="reclame1-text">наслаждайтесь домашними удобствами.Готовьте<br>
+		   завтрак в вашей собственной кухне, стирайте <br>
+		   или пользуйтесь WI-FI без дополнительной <br> платы</div>
+	  </div>
+	  <div class="col-12 col-sm-4 align-self-start flex-item5">
+		    <div class="reclame1-title">Больше выбора</div> 
+		    <div class="reclame1-text">квартиры, частный сектор, дома, отели, хостелы.</div>
+	  </div>
+	</div>
+  </section>
+	
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Запустить модальное окно
+</button>
+
+
+	
+	<!-- carousel start -->
+
+<section class="carousel-top " >	
+	
+ <ul id="lightSlider">
+ 	<li>
+	  <div class="text1" >
+		<img src="img/teni1.png" alt=" " class="teni9" >
+	    <div class="zirka"  ><img src="img/star5.png" alt="" ></div>
+	    <div class="top2">Кроме того, введенные в форму значения (кроме текста сообщения) запоминаются в cookie (используется библиотека cookie.js, описанная в главе 7). Форма содержит все те же поля, что и в </div>
+	    <div class="bottom2"> Гостиница "Ривер Сайд" , Тбилиси </div>
+	    <div class="tanja"><img src="img/vek10.png" alt="  " ><br>Татьяна</div>
+	  </div>
+    </li>
+ 	<li>
+	  <div class="text1" >
+		<img src="img/teni1.png" alt=" " class="teni9" >
+	    <div class="zirka"  ><img src="img/star5.png" alt="" ></div>
+	    <div class="top2">Кроме того, введенные в форму значения (кроме текста сообщения) запоминаются в cookie (используется библиотека cookie.js, описанная в главе 7). Форма содержит все те же поля, что и в </div>
+	    <div class="bottom2"> Гостиница "Ривер Сайд" , Тбилиси </div>
+	    <div class="tanja"><img src="img/vek10.png" alt="  " ><br>Вася</div>
+	  </div>
+	</li>
+ 	<li>
+	  <div class="text1" >
+		<img src="img/teni1.png" alt=" " class="teni9" >
+	    <div class="zirka"  ><img src="img/star5.png" alt="" ></div>
+	    <div class="top2">Кроме того, введенные в форму значения (кроме текста сообщения) запоминаются в cookie (используется библиотека cookie.js, описанная в главе 7). Форма содержит все те же поля, что и в </div>
+	    <div class="bottom2"> Гостиница "Ривер Сайд" , Тбилиси </div>
+	    <div class="tanja"><img src="img/vek10.png" alt="  " ><br>Тина</div>
+	  </div>
+	</li>
+ 	<li>
+	  <div class="text1" >
+		<img src="img/teni1.png" alt=" " class="teni9" >
+	    <div class="zirka"  ><img src="img/star5.png" alt="" ></div>
+	    <div class="top2">Кроме того, введенные в форму значения (кроме текста сообщения) запоминаются в cookie (используется библиотека cookie.js, описанная в главе 7). Форма содержит все те же поля, что и в </div>
+	    <div class="bottom2"> Гостиница "Ривер Сайд" , Тбилиси </div>
+	    <div class="tanja"><img src="img/vek10.png" alt="  " ><br>Толя</div>
+	  </div>
+    </li>
+ </ul>  
+ <!-- --> <a class="slidePrev"><img src="img/img-left.png" alt=""></a>
+       <a class="slideNext"><img src="img/img-right.png" alt=""></a>
+ 
+ </section>  
+	  
+	  
+	
+  </div>  <!-- container -->
+   
+    <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+	  <div class="row">
+	    <div class="col-12 col-sm-4 "> 
+	      <div class=""> 2008 - 2017 STEPDREAM </div> 
+	    </div>  
+	    <div class="col-12 col-sm-4 "> 
+	      <div class="" > Мы в социальных сетях:
+	        <a href="https://www.wk.com" class="icon-facebook">
+              <img src="img/wk.png" class="icon-facebook"></a>
+	        <a href="https://www.ok.com" class="icon-facebook">
+              <img src="img/ok.png" class="icon-facebook"></a>
+	        <a href="https://www.facebook.com" class="icon-facebook">
+              <img src="img/facebook.png" class="icon-facebook"></a></div>
+	    </div>
+	    <div class="col-12 col-sm-4 ">
+	      <nav class="nav-footer">
+	   		<a class="nav-footer__link" href="">Сдать жильё</a>
+	   		<a class="nav-footer__link" href="">О компании</a>
+	   		<a class="nav-footer__link" href="">Задать вопрос</a>
+	      </nav>
+	    </div>
+      </div> 
+    </div>
+  </footer>
+</div> <!-- wrap -->
+
+<!-- Подключаем jQuery  2 способа -->
+ <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="js/jquery.min.js"></script>
+  <!--  --><script src="js/bootstrap.bundle.min.js"></script> 
+  <script src="js/lightslider.min.js"></script>
+  <script src="calendar/js/jquery-ui.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="calendar/js/datepicker-ru.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="js/anime.min.js"></script>
+ <!--   <script src="js/home.js"></script>-->
+  <!-- здесь свои скрипты -->
+  <script src="js/main.js"></script>
+  <script >
+ 
+ $(".search-button").click(function(){
+   $(this).css("color","red");
+   $("#dropdown").slideToggle(100);
+});
+$(".search-button").click();
+
+$(".droplink-title").click(function(){
+   $(".data").slideToggle(100);
+});
+
+$(".droplink-title").click(); 
+  
+  <!-- Slider -->	 
+   var slider = $("#lightSlider").lightSlider({
+      pager: false,
+	  speed: 500,
+	  loop:true,
+	  slideMargin:30,
+	  responsive : [
+	  {
+	  breakpoint:558,
+	  settings: {
+      item:1,  
+	  }}],
+    });
+ $('.slidePrev').click(function() {
+            slider.goToPrevSlide();
+        });
+
+ $('.slideNext').click(function() {
+            slider.goToNextSlide();
+        });
+		
+<!-- calendar -->	
+
+ $( "#from" ).datepicker({
+changeMonth: true,
+minDate: "0",
+numberOfMonths: 1,
+onClose: function( selectedDate ) {
+$( "#to" ).datepicker( "option", "minDate", selectedDate );
+}
+});
+$( "#to" ).datepicker({
+changeMonth: true,
+numberOfMonths: 1,
+onClose: function( selectedDate ) {
+$( "#from" ).datepicker( "option", "maxDate", selectedDate );
+}
+});
+    
+//createBubble(); //startStepAnimations(); stepsShouldStartAnimating();
+
+
+
+
+
+
+    
+	</script>
+<style>
+
+</style>  
+	  
+</script>
+</body>
+</html>
